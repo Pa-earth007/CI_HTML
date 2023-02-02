@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="content col-4 p-0">
+        <div class="content col-4 p-0 d-flex flex-column">
             <form class="form p-5">
                 <div class="email1">
                     <label for="email">Email Address</label>
@@ -33,18 +33,14 @@
                     <input type="password" id="password" placeholder="*******">
                 </div>
                 <div class="btn">
-                    <button type="button" class="btn w-100">Login</button>
+                    <button type="submit" class="btn w-100">Login</button>
                 </div>
-                <div class="link">
-                    <span><a href="http://127.0.0.1:5500/views/lostpassword.html">Lost your Password</a></span>
-                </div>
+            </form>
+                <a class="link" href="http://127.0.0.1:5500/views/lostpassword.html">Lost your Password</a>
                 <div class="link">
                     <span> Don’t have an account ?&nbsp; <a href="http://127.0.0.1:5500/views/registration.html">Create an account</a></span>
                 </div>
-                <div class="link-policy">
-                    <span><a href="#">Private Policy</a></span>
-                </div>
-            </form>
+                <a class="link-policy" href="#">Private Policy</a>
         </div>
     </main>
     <script src="/js/bootstrap.bundle.min.js"></script>

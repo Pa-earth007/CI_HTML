@@ -35,7 +35,6 @@ body {
 .form{
     display: flex;
     width: 100%;
-    position: relative;
     flex-direction: column;
     justify-content: center;
 }
@@ -62,7 +61,6 @@ body {
     font: 600;
     color: #F88634;
     border-radius: 24px;
-    margin-bottom: 20px;
 }
 .btn button:hover{
     border: 1px solid #F88634;
@@ -74,25 +72,32 @@ body {
 .link{
     margin-bottom: 20px;
 }
-.link span{
+.link{
     display: flex;
     justify-content: center;
 }
-.link-policy{
-    position: absolute;
-    bottom: -1%;
-    left: 5px;
-    width: 100%;
-}
-.link-policy span{
-    display: flex;
-    justify-content: center;
-}
+
 .link span a{
     color: #414141;
     text-decoration: none;
 }
-.link-policy span a{
+.link-policy{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    color: #414141;
+    text-decoration: none;
+}
+.link-policy-register{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    color: #414141;
+    text-decoration: none;
+}
+.link{
     color: #414141;
     text-decoration: none;
 }
