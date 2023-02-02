@@ -97,6 +97,22 @@ body {
     color: #414141;
     text-decoration: none;
 }
+@media screen and (max-width:802px) {
+    .link-policy{
+        display: flex;  
+        position: unset;
+        justify-content: center;
+        color: #414141;
+        text-decoration: none;
+    }
+    .link-policy-register{
+        display: flex;
+        position: unset;
+        justify-content: center;
+        color: #414141;
+        text-decoration: none;
+    }
+}
 .link{
     color: #414141;
     text-decoration: none;
@@ -116,12 +132,6 @@ body {
         flex-direction: column;
     }
     .image, .content{
-        width: 100%;
-    }
-    .link-policy{
-        position: absolute;
-        bottom: 15px;
-        left: 5px;
         width: 100%;
     }
 }
